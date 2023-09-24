@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.dsfr.dsfrmod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "dsfr.refmap.json",
+  "plugin": "com.dsfr.dsfrmod.mixins.MixinPlugin",
+  "mixins": [
+
+  ],
+  "client": [
+    "ItemInHandRendererMixin",
+    "PlayerRendererMixin",
+    "AbstractClientPlayerMixin",
+    "MouseHandleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
